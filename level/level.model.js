@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const levelSchema = new mongoose.Schema({
   level: [
     {
-      level: { type: Number, required: true , unique : true },
+      level: { type: Number, required: true  },
       data: {
         width: { type: Number, required: true },
         height: { type: Number, required: true },
